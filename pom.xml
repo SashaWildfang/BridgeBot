@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.bearnation</groupId>
+    <artifactId>bridgebot</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        <!-- MCProtocolLib from GeyserMC -->
+        <dependency>
+            <groupId>org.geysermc.mcprotocollib</groupId>
+            <artifactId>protocol</artifactId>
+            <version>1.21.7-1</version>
+        </dependency>
+
+        <!-- MCAuthLib for Microsoft authentication -->
+        <dependency>
+            <groupId>com.github.steveice10</groupId>
+            <artifactId>mcauthlib</artifactId>
+            <version>1.5-SNAPSHOT</version>
+        </dependency>
+
+        <!-- Optional logging -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>2.0.9</version>
+        </dependency>
+    </dependencies>
+
+    <repositories>
+        <!-- GeyserMC repo -->
+        <repository>
+            <id>opencollab</id>
+            <url>https://repo.opencollab.dev/main/</url>
+        </repository>
+
+        <!-- Maven Central for MCAuthLib -->
+        <repository>
+            <id>central</id>
+            <url>https://repo1.maven.org/maven2/</url>
+        </repository>
+    </repositories>
+</project>

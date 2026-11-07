@@ -1,0 +1,54 @@
+# Build output
+build/
+out/
+bin/
+target/
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.classpath
+.project
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local runtime / secrets
+run/
+*.log
+debug.txt
+config.json
+.env
+
+# Project-specific
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+### IntelliJ IDEA ###
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+### Eclipse ###
+.apt_generated
+.factorypath
+.settings
+.springBeans
+.sts4-cache
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+!**/src/main/**/build/
+!**/src/test/**/build/
+### VS Code ###
+### Mac OS ###
